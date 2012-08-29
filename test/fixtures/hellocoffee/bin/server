@@ -1,0 +1,13 @@
+#!/usr/bin/env coffee
+
+http = require('http');
+
+server = http.createServer((req, res) ->
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.write('hello, i know nodejitsu.')
+  res.end();
+)
+server.listen(8080);
+
+
+console.log('> http server has started on port 8080');

@@ -1,0 +1,17 @@
+{
+  "name": "checkout",
+  "description": "Pull down local or remote repositories to local directories.",
+  "dependencies": {
+    "ncp": "~0.2.6",
+    "tar": "~0.1.13"
+  },
+  "devDependencies": {
+    "vows": "~0.6.4",
+    "tmp": "~0.0.14"
+  },
+  "scripts": {
+    "test": "vows test/*/*.js"
+  },
+  "version": "0.0.0",
+  "main": "./lib/index.js"
+}

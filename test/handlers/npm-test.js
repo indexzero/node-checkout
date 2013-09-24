@@ -37,7 +37,7 @@ vows.describe('npm').addBatch({
       });
     },
     'should create new directories properly': function () {
-      assert(fs.statSync(path.join(this.dir, 'package.json')));
+      assert(fs.statSync(path.join(this.dir, 'package', 'package.json')));
     }
   }
 }).export(module);

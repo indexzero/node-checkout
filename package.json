@@ -17,7 +17,7 @@
   "scripts": {
     "test": "vows test/handlers/*-test.js --spec"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/index.js",
   "repository": {
      "type": "git",
